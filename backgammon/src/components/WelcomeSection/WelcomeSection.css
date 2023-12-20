@@ -1,0 +1,36 @@
+.welcome-wrapper {
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    align-items: flex-end; 
+  }
+
+.welcome-img {
+    width: 95%;
+    height: 95%;
+}
+
+.welcome-cover {
+    background: rgba(24, 7, 2, 0.77);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 95%;
+    height: 100%;
+    z-index: 1;
+}
+
+.welcome-text {
+    position: absolute;
+    color: #FFF;
+    font-family: 'Inria Serif';
+    font-size: 100px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    left: 15%;
+    top: 30%;
+    text-align: left;
+    z-index: 2;
+  }
