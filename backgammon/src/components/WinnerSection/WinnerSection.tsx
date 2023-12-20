@@ -1,4 +1,3 @@
-import React from 'react';
 import './WinnerSection.css';
 
 function WinnerSection() {

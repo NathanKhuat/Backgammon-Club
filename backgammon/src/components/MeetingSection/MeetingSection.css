@@ -1,0 +1,44 @@
+.wrapper {
+    display: flex;
+    height: fit-content;
+    justify-content: space-around;
+    /* text-align: left; */
+    padding: 50px;
+}
+
+.text {
+    text-align: left;
+}
+
+.meeting-text {
+    font-family: Lato;
+    font-weight: 300;
+}
+
+.header-text {
+    font-family: Inria Serif;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.img {
+    max-width: 95px;
+    height: 95px;
+}
+
+.btn , .btn:hover{
+    border-radius: 40px;
+    background: #44180B;
+    color: white;
+    text-align: center;
+    width: 170px;
+    font-family: Lato;
+}
+
+.media { 
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+}
