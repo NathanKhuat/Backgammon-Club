@@ -1,15 +1,16 @@
 .welcome-wrapper {
     width: 100%;
+    height: 100%;
     display: flex;
     position: relative;
-    height: 100%;
-    justify-content: flex-end;
+    margin-bottom: 400px; /*bug here*/
   }
 
 .welcome-img {
-    width: 95%;
+    width: 97%;
     right: 0;
     height: auto;
+    margin-left: auto
 }
 
 .welcome-cover {
@@ -17,12 +18,12 @@
     position: absolute;
     top: 0;
     right: 0;
-    width: 95%;
+    width: 97%;
     height: 100%;
     z-index: 1;
 }
 
-.welcome-text {
+.welcome-text { /*bug here*/
     position: absolute;
     color: #FFF;
     font-family: 'Inria Serif', serif;
@@ -34,4 +35,35 @@
     top: 30%;
     text-align: left;
     z-index: 2;
-  }
+}
+
+.about1 {
+    position: absolute;
+    width: 97%;
+    height: calc(100% * 0.7); 
+    max-width: 97%;
+    opacity: 0.6;
+    background: #C49F74;
+    top: 77%;
+    z-index: 3;
+}
+
+.statement-text {  /*needs to moved to correct spot*/
+    color: #FFF;
+    font-family: 'Inria Serif', serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.about2 {
+    position: absolute;
+    left: 3%;
+    width: 94%;
+    height: calc(100% * .23);
+    opacity: 0.6;
+    background: #3F1C13;
+    bottom: 0%;
+    z-index: 4;
+}
