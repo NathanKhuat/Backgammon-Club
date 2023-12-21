@@ -4,10 +4,11 @@ import board from './board2.png'
 function WelcomeSection() {
   return (
     <div className='welcome-wrapper'>
-      <div className='welcome-text'><span>
-        University of Washington's <br/>
+      <span className='welcome-text'>
+        University of Washington's 
         Undergraduate <br/>
-        Backgammon Club</span></div>
+        Backgammon Club
+      </span>
       <div className='welcome-cover'></div>
       <img src={board} className='welcome-img' />
     </div>

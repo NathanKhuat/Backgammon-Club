@@ -5,7 +5,7 @@ function MeetingSection() {
   return (
     <div className='wrapper'>
       <div className='text'>
-        <h2 className='header-text'>Meetings</h2>
+        <span className='header-text'>Meetings</span> <br/>
         <span className='meeting-text'>
           Weekly Meetings on Tuesdays <br/>
           Big Time Brewery @5 <br/>

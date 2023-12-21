@@ -2,13 +2,14 @@
     width: 100%;
     display: flex;
     position: relative;
+    height: 100%;
     justify-content: flex-end;
-    align-items: flex-end; 
   }
 
 .welcome-img {
     width: 95%;
-    height: 95%;
+    right: 0;
+    height: auto;
 }
 
 .welcome-cover {
@@ -24,11 +25,11 @@
 .welcome-text {
     position: absolute;
     color: #FFF;
-    font-family: 'Inria Serif';
-    font-size: 100px;
+    font-family: 'Inria Serif', serif;
     font-style: italic;
-    font-weight: 700;
-    line-height: normal;
+    font-weight: 700px;
+    font-size: 80px;
+    line-height: initial;
     left: 15%;
     top: 30%;
     text-align: left;
