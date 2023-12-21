@@ -31,13 +31,13 @@
 }
 
 .btn , .btn:hover{
-    border-radius: 40px;
+    border-radius: 0;
     background: #44180B;
     color: white;
     text-align: center;
-    width: 360px;
+    width: 220px;
     font-family: 'Lato';
-    font-size: 32px;
+    font-size: 24px;
 
 }
 

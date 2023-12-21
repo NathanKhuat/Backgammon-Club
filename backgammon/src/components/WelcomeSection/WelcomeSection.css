@@ -10,7 +10,8 @@
     width: 97%;
     right: 0;
     height: auto;
-    margin-left: auto
+    margin-left: auto;
+    z-index: 0;
 }
 
 .welcome-cover {
@@ -29,7 +30,7 @@
     font-family: 'Inria Serif', serif;
     font-style: italic;
     font-weight: 700px;
-    font-size: 80px;
+    font-size: 4vw;
     line-height: initial;
     left: 15%;
     top: 30%;
@@ -48,13 +49,18 @@
     z-index: 3;
 }
 
-.statement-text {  /*needs to moved to correct spot*/
+.statement-text {
+    position: absolute;
     color: #FFF;
     font-family: 'Inria Serif', serif;
-    font-size: 25px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 300;
-    line-height: normal;
+    left: 10%;
+    top: 25%;
+    line-height: 1.5;
+    text-align: left;
+    z-index: 5;
 }
 
 .about2 {
@@ -66,4 +72,5 @@
     background: #3F1C13;
     bottom: 0%;
     z-index: 4;
+    display: flex;
 }

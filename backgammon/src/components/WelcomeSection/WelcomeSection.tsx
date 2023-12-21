@@ -15,7 +15,8 @@ function WelcomeSection() {
       <div className='about1'></div>
       <div className='about2'>
         <span className='statement-text'>
-          We are Washington's Premier Backgammon society for casual & competitive Backgammon
+          We are Washington's Premier Backgammon society for <br/>
+          casual & competitive Backgammon
         </span>
       </div>
     </div>
