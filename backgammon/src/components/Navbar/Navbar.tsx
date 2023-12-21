@@ -1,6 +1,6 @@
 import './Navbar.css';
 
-function Navbar() {
+function Navbar() { /* buttons arent changing size */
   return (
     <div className='nav-wrapper'>
       <span className='title-text'>UW Backgammon</span>

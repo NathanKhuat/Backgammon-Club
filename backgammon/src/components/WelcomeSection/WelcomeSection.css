@@ -24,13 +24,13 @@
     z-index: 1;
 }
 
-.welcome-text { /*bug here*/
+.welcome-text {
     position: absolute;
     color: #FFF;
     font-family: 'Inria Serif', serif;
     font-style: italic;
     font-weight: 700px;
-    font-size: 4vw;
+    font-size: 4vw; /*maybe change this to px*/
     line-height: initial;
     left: 15%;
     top: 30%;
@@ -52,12 +52,12 @@
 .statement-text {
     position: absolute;
     color: #FFF;
-    font-family: 'Inria Serif', serif;
-    font-size: 30px;
+    font-size: 1.5vw; /*maybe change this to px*/
     font-style: normal;
-    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    font-weight: 50px;
     left: 10%;
-    top: 25%;
+    top: 83%;
     line-height: 1.5;
     text-align: left;
     z-index: 5;
@@ -74,3 +74,89 @@
     z-index: 4;
     display: flex;
 }
+
+.about-text {
+    position: absolute;
+    color: #171613;
+    font-family: 'Lato', sans-serif;
+    left: 10%;
+    top: 112%;
+    font-style: normal;
+    font-weight: 50px;
+    z-index: 6;
+}
+
+.about-bar {
+    position: absolute;
+    width: 1px;
+    height: 11vw; /*maybe change this to px*/
+    background: #000;
+    top: 112%;
+    left: 20%;
+    z-index: 7;
+}
+
+.about-message {
+    position: absolute;
+    text-align: left;
+    color: #171613;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    top: 112%;
+    left: 24%;
+    height: 10vw;
+    z-index: 8;
+}
+
+@media screen and (max-width: 768px) {
+    .about-text {
+        font-size: 8px;
+    }
+    .about-message {
+        font-size: 14px;
+        right: 6%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 950px) {
+    .about-text {
+        font-size: 10px;
+    }
+    .about-message {
+        font-size: 18px;
+        right: 7%;
+    }
+}
+
+@media screen and (min-width: 951px) and (max-width: 1200px) {
+    .about-text {
+        font-size: 12px;
+    }
+    .about-message {
+        font-size: 22px;
+        right: 8%;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1500px) {
+    .about-text {
+        font-size: 15px;
+    }
+    .about-message {
+        font-size: 24px;
+        right: 10%;
+    }
+}
+
+@media screen and (min-width: 1501px) {
+    .about-text {
+        font-size: 20px;
+    }
+    .about-message {
+        font-size: 32px;
+        right: 14%;
+    }
+}
+

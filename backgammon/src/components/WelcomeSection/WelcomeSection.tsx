@@ -13,12 +13,19 @@ function WelcomeSection() {
       </div>
       <img src={board} className='welcome-img' />
       <div className='about1'></div>
-      <div className='about2'>
-        <span className='statement-text'>
-          We are Washington's Premier Backgammon society for <br/>
-          casual & competitive Backgammon
-        </span>
-      </div>
+      <span className='about-text'>About</span>
+      <div className='about-bar'></div>
+      <span className='about-message'>
+        Welcome to the University of Washington Backgammon Club - 
+        a vibrant community where students of all skill levels come 
+        together to enjoy the strategic excitement of backgammon. Join 
+        us for inclusive play, friendly competition, and a shared 
+        passion for the game!</span>
+      <div className='about2'></div>
+      <span className='statement-text'>
+        We are Washington's Premier Backgammon Society for <br/>
+        casual & competitive Backgammon
+      </span>
     </div>
   );
 }
