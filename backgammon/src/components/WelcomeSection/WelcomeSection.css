@@ -30,7 +30,6 @@
     font-family: 'Inria Serif', serif;
     font-style: italic;
     font-weight: 700px;
-    font-size: 4vw; /*maybe change this to px*/
     line-height: initial;
     left: 15%;
     top: 30%;
@@ -52,12 +51,11 @@
 .statement-text {
     position: absolute;
     color: #FFF;
-    font-size: 1.5vw; /*maybe change this to px*/
+    font-size: 28px;
     font-style: normal;
     font-family: 'Lato', sans-serif;
     font-weight: 50px;
     left: 10%;
-    top: 83%;
     line-height: 1.5;
     text-align: left;
     z-index: 5;
@@ -110,7 +108,16 @@
     z-index: 8;
 }
 
+/* screen size adjustments */
 @media screen and (max-width: 768px) {
+    .welcome-text {
+        font-size: 24px;
+    }
+    .statement-text {
+        font-size: 12px;
+        right: 40%;
+        top: 82%;
+    }
     .about-text {
         font-size: 8px;
     }
@@ -121,6 +128,14 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 950px) {
+    .welcome-text {
+        font-size: 28px;
+    }
+    .statement-text {
+        font-size: 14px;
+        right: 40%;
+        top: 82%;
+    }
     .about-text {
         font-size: 10px;
     }
@@ -131,6 +146,14 @@
 }
 
 @media screen and (min-width: 951px) and (max-width: 1200px) {
+    .welcome-text {
+        font-size: 40px;
+    }
+    .statement-text {
+        font-size: 18px;
+        right: 45%;
+        top: 81%;
+    }
     .about-text {
         font-size: 12px;
     }
@@ -141,6 +164,14 @@
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1500px) {
+    .welcome-text {
+        font-size: 48px;
+    }
+    .statement-text {
+        font-size: 24px;
+        right: 45%;
+        top: 81%;
+    }
     .about-text {
         font-size: 15px;
     }
@@ -151,6 +182,14 @@
 }
 
 @media screen and (min-width: 1501px) {
+    .welcome-text {
+        font-size: 64px;
+    }
+    .statement-text {
+        font-size: 28px;
+        right: 45%;
+        top: 82%;
+    }
     .about-text {
         font-size: 20px;
     }
@@ -159,4 +198,3 @@
         right: 14%;
     }
 }
-

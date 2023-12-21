@@ -1,6 +1,5 @@
 .nav-wrapper {
     width: 100%;
-    height: 110px;
     padding: 20px;
     display: flex;
     justify-content: space-around;
@@ -10,7 +9,6 @@
 .title-text {
     font-family: 'Inria Serif', serif;
     font-style: normal;
-    font-size: 40px;
     font-weight: 550;
 }
 
@@ -21,10 +19,70 @@
 
 .nav-button {
     font-family: 'Lato', sans-serif;
-    font-size: 28px;
     font-weight: 50px;
     text-align: center;
     border: none;
     background-color: transparent;
     margin-right: 80px;
+}
+
+/* screen size adjustments */
+@media screen and (max-width: 768px) {
+    .title-text {
+        font-size: 24px;
+    }
+    .nav-wrapper {
+        height: 65px;
+    }
+    .nav-button {
+        font-size: 0px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 950px) {
+    .title-text {
+        font-size: 24px;
+    }
+    .nav-wrapper {
+        height: 65px;
+    }
+    .nav-button {
+        font-size: 0px;
+    }
+}
+
+@media screen and (min-width: 951px) and (max-width: 1200px) {
+    .title-text {
+        font-size: 29px;
+    }
+    .nav-wrapper {
+        height: 110px;
+    }
+    .nav-button {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1500px) {
+    .title-text {
+        font-size: 34px;
+    }
+    .nav-wrapper {
+        height: 110px;
+    }
+    .nav-button {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1501px) {
+    .title-text {
+        font-size: 40px;
+    }
+    .nav-wrapper {
+        height: 110px;
+    }
+    .nav-button {
+        font-size: 28px;
+    }
 }

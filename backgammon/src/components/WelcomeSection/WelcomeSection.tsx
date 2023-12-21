@@ -23,7 +23,7 @@ function WelcomeSection() {
         passion for the game!</span>
       <div className='about2'></div>
       <span className='statement-text'>
-        We are Washington's Premier Backgammon Society for <br/>
+        We are Washington's Premier Backgammon Society for
         casual & competitive Backgammon
       </span>
     </div>
