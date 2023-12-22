@@ -3,7 +3,6 @@
     height: 100%;
     display: flex;
     position: relative;
-    margin-bottom: 400px; /*bug here*/
   }
 
 .welcome-img {
@@ -110,6 +109,9 @@
 
 /* screen size adjustments */
 @media screen and (max-width: 768px) {
+    .welcome-wrapper {
+        margin-bottom: 140px;
+    }
     .welcome-text {
         font-size: 24px;
     }
@@ -128,6 +130,9 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 950px) {
+    .welcome-wrapper {
+        margin-bottom: 180px;
+    }
     .welcome-text {
         font-size: 28px;
     }
@@ -146,6 +151,9 @@
 }
 
 @media screen and (min-width: 951px) and (max-width: 1200px) {
+    .welcome-wrapper {
+        margin-bottom: 240px;
+    }
     .welcome-text {
         font-size: 40px;
     }
@@ -164,6 +172,9 @@
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1500px) {
+    .welcome-wrapper {
+        margin-bottom: 300px;
+    }
     .welcome-text {
         font-size: 48px;
     }
@@ -181,7 +192,31 @@
     }
 }
 
-@media screen and (min-width: 1501px) {
+@media screen and (min-width: 1501px) and (max-width: 1800px) {
+    .welcome-wrapper {
+        margin-bottom: 380px;
+    }
+    .welcome-text {
+        font-size: 64px;
+    }
+    .statement-text {
+        font-size: 28px;
+        right: 45%;
+        top: 82%;
+    }
+    .about-text {
+        font-size: 20px;
+    }
+    .about-message {
+        font-size: 32px;
+        right: 14%;
+    }
+}
+
+@media screen and (min-width: 1801px) {
+    .welcome-wrapper {
+        margin-bottom: 450px;
+    }
     .welcome-text {
         font-size: 64px;
     }

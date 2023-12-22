@@ -14,31 +14,21 @@
 .meeting-text {
     font-family: 'Lato';
     font-weight: 300;
-    font-size: 40px;
 }
 
 .header-text {
     font-family: 'Inria Serif';
-    font-size: 64px;
     font-weight: 700;
-    margin-bottom: 40px;
     font-style: normal;
 }
 
-.img {
-    max-width: 200px;
-    height: 190px;
-}
 
-.btn , .btn:hover{
+.btn , .btn:hover {
     border-radius: 0;
-    background: #44180B;
+    background: #583928;
     color: white;
     text-align: center;
-    width: 220px;
     font-family: 'Lato';
-    font-size: 24px;
-
 }
 
 .media { 
@@ -46,4 +36,95 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+}
+
+/* screen size adjustments */
+@media screen and (max-width: 768px) {
+    .header-text {
+        font-size: 16px;
+        margin-bottom: 2px;
+    }
+    .meeting-text {
+        font-size: 12px;
+    }
+    .img {
+        height: 70px;
+        margin-bottom: 10px;
+    }
+    .btn , .btn:hover {
+        width: 90px;
+        font-size: 8px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 950px) {
+    .header-text {
+        font-size: 24px;
+        margin-bottom: 2px;
+    }
+    .meeting-text {
+        font-size: 18px;
+    }
+    .img {
+        height: 100px;
+        margin-bottom: 20px;
+    }
+    .btn , .btn:hover {
+        width: 120px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 951px) and (max-width: 1200px) {
+    .header-text {
+        font-size: 32px;
+        margin-bottom: 12px;
+    }
+    .meeting-text {
+        font-size: 18px;
+    }
+    .img {
+        height: 120px;
+        margin-bottom: 20px;
+    }
+    .btn , .btn:hover {
+        width: 120px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1500px) {
+    .header-text {
+        font-size: 42px;
+        margin-bottom: 18px;
+    }
+    .meeting-text {
+        font-size: 24px;
+    }
+    .img {
+        height: 150px;
+        margin-bottom: 30px;
+    }
+    .btn , .btn:hover {
+        width: 150px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1501px) {
+    .header-text {
+        font-size: 56px;
+        margin-bottom: 20px;
+    }
+    .meeting-text {
+        font-size: 32px;
+    }
+    .img {
+        height: 190px;
+        margin-bottom: 40px;
+    }
+    .btn , .btn:hover {
+        width: 180px;
+        font-size: 20px;
+    }
 }
