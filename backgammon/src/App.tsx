@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar';
 import WelcomeSection from './components/WelcomeSection/WelcomeSection';
 import MeetingSection from './components/MeetingSection/MeetingSection';
 import WinnerSection from './components/WinnerSection/WinnerSection';
+import FooterSection from './components/FooterSection/FooterSection';
 function App() {
   return (
     <div className="app">
@@ -11,7 +12,7 @@ function App() {
       <WelcomeSection></WelcomeSection>
       <MeetingSection></MeetingSection>
       <WinnerSection></WinnerSection>
-      {/* <Footer></Footer> */}
+      <FooterSection></FooterSection>
     </div>
   );
 }
