@@ -5,9 +5,21 @@ function WinnerSection() {
   return (
     <div className='winner-wrapper'>
       <div className='winner-box'>
-        <span className='winners-text1'>Our Backgammon</span>
-        <span className='winners-text2'> Winners</span>
-        <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+        <div className='winner-text-wrapper'>
+          <span className='winners-text1'>Our Backgammon</span>
+          <span className='winners-text2'> Community </span>
+        </div>
+        <div className='community-message'>
+        <span>
+            Within the UW Backgammon Club, our competitive edge 
+            fuels a constant drive to improve. Every match is a 
+            chance to up our game and refine our moves. But it's 
+            not all about strategy; our thriving community turns 
+            our game nights into a mix of friendly rivalry and 
+            good times.
+          </span>
+        </div>
+        {/* <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
           <ol className="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -29,7 +41,7 @@ function WinnerSection() {
             <span className="carousel-control-next-icon" aria-hidden="true"></span>
             <span className="sr-only">Next</span>
           </a>
-        </div>
+        </div> */}
         </div>
     </div>
   );

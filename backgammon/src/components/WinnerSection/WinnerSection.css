@@ -12,6 +12,23 @@
     background: #593A29;
 }
 
+.winner-text-wrapper {
+    position: absolute;
+    text-align: left;
+}
+
+.community-message {
+    position: absolute;
+    color: #FFF;
+    font-style: normal;
+    font-family: 'Lato', sans-serif;
+    font-weight: 50px;
+    left: 10%;
+    line-height: 1.5;
+    text-align: left;
+    z-index: 5;
+}
+
 .winners-text1 {
     color: #DCDCDC;
     font-family: 'Inria Serif', serif;
@@ -45,6 +62,16 @@
         width: 980px;
         height: 630px;
     }
+    .winner-text-wrapper {
+        left: 5%;
+        top: 7%;
+    }
+    .community-message {
+        left: 5%;
+        right: 10%;
+        top: 16%;
+        font-size: 12px;
+    }
     .winners-text1, .winners-text2 {
         font-size: 24px;
     }
@@ -54,6 +81,16 @@
     .winner-box {
         width: 1100px;
         height: 700px;
+    }
+    .winner-text-wrapper {
+        left: 5%;
+        top: 7%;
+    }
+    .community-message {
+        left: 5%;
+        right: 10%;
+        top: 16%;
+        font-size: 14px;
     }
     .winners-text1, .winners-text2 {
         font-size: 28px;
@@ -65,6 +102,16 @@
         width: 1580px;
         height: 800px;
     }
+    .winner-text-wrapper {
+        left: 5%;
+        top: 7%;
+    }
+    .community-message {
+        left: 5%;
+        right: 10%;
+        top: 18%;
+        font-size: 18px;
+    }
     .winners-text1, .winners-text2 {
         font-size: 40px;
     }
@@ -75,6 +122,17 @@
         width: 1580px;
         height: 800px;
     }
+    .winner-text-wrapper {
+        left: 7%;
+        top: 11%;
+        right: 50%;
+    }
+    .community-message {
+        top: 11%;
+        left: 50%;
+        right: 8%;
+        font-size: 20px;
+    }
     .winners-text1, .winners-text2 {
         font-size: 48px;
     }
@@ -84,6 +142,17 @@
     .winner-box {
         width: 1580px;
         height: 1020px;
+    }
+    .winner-text-wrapper {
+        left: 7%;
+        top: 11%;
+        right: 50%;
+    }
+    .community-message {
+        top: 11%;
+        left: 50%;
+        right: 8%;
+        font-size: 24px;
     }
     .winners-text1, .winners-text2 {
         font-size: 64px;
