@@ -3,11 +3,12 @@
     height: 100%;
     display: flex;
     position: relative;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     justify-content: center;
 }
 
 .winner-box {
+    padding-top: 30px;
     background: #593A29;
 }
 
@@ -31,10 +32,11 @@
     z-index: 2;
 }
 
-.playing-img {
+.carousel-inner {
+    padding: 100px;
     position: relative;
-    width: 92vw;
-    top: 30%;
+    /* width: 92vw; */
+    top: 20%;
     height: auto;
     z-index: 3;
 }
