@@ -3,7 +3,7 @@ import dice from './dice.png'
 
 function MeetingSection() {
   return (
-    <div className='wrapper'>
+    <div className='wrapper trigger1 animate fadeIn'>
       <div className='text'>
         <span className='header-text'>Meetings</span> <br/>
         <span className='meeting-text'>
