@@ -39,7 +39,7 @@
     justify-content: space-around;
 }
 
-.trigger1 {
+.trigger {
     -webkit-animation-delay: 0.5s;
     -moz-animation-delay: 0.5s;
     animation-delay: 0.5s;

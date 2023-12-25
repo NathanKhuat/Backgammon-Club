@@ -1,11 +1,37 @@
+import React, { useEffect, useRef } from 'react';
 import './WinnerSection.css';
 // import playing from "./playing.png"
 
 function WinnerSection() {
+  const sectionRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    const sectionElement = sectionRef.current;
+
+    if (!sectionElement) {
+      return;
+    }
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          sectionElement.classList.add('animate', 'fadeLeft');
+          observer.unobserve(sectionElement);
+        }
+      });
+    });
+
+    observer.observe(sectionElement);
+
+    return () => {
+      observer.disconnect();
+    };
+  }, [sectionRef]);
+
   return (
     <div className='winner-wrapper'>
       <div className='winner-box'>
-        <div className='winner-text-wrapper'>
+        <div className='winner-text-wrapper trigger' ref={sectionRef}>
           <span className='winners-text1'>Our Backgammon</span>
           <span className='winners-text2'> Community </span>
         </div>
