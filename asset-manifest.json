@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/backgammon/static/css/main.cae44407.css",
+    "main.js": "/backgammon/static/js/main.a9b1d733.js",
+    "static/js/787.90fb5f15.chunk.js": "/backgammon/static/js/787.90fb5f15.chunk.js",
+    "static/media/board2.png": "/backgammon/static/media/board2.a2f77591c95fe715fc00.png",
+    "static/media/dice.png": "/backgammon/static/media/dice.eeabbe9ad737f587d484.png",
+    "index.html": "/backgammon/index.html",
+    "main.cae44407.css.map": "/backgammon/static/css/main.cae44407.css.map",
+    "main.a9b1d733.js.map": "/backgammon/static/js/main.a9b1d733.js.map",
+    "787.90fb5f15.chunk.js.map": "/backgammon/static/js/787.90fb5f15.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cae44407.css",
+    "static/js/main.a9b1d733.js"
+  ]
+}
