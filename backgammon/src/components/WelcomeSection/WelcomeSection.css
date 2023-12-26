@@ -112,10 +112,22 @@
     animation-delay: 0.5s;
 }
 
+.trigger3 {
+    -webkit-animation-delay: 0.8s;
+    -moz-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+}
+
 .trigger4 {
     -webkit-animation-delay: 1s;
     -moz-animation-delay: 1s;
     animation-delay: 1s;
+}
+
+.trigger5 {
+    -webkit-animation-delay: 1.2s;
+    -moz-animation-delay: 1.2s;
+    animation-delay: 1.2s;
 }
 
 .animate {
@@ -208,6 +220,37 @@
 .fadeLeft {
     -webkit-animation-name: fadeLeft;
     animation-name: fadeLeft;
+}
+
+@-webkit-keyframes fadeLeftSpecial {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+    }
+    to {
+        opacity: 0.6;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes fadeLeftSpecial {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+    }
+    to {
+        opacity: 0.6;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.fadeLeftSpecial {
+    -webkit-animation-name: fadeLeftSpecial;
+    animation-name: fadeLeftSpecial;
 }
 
 /* screen size adjustments */
