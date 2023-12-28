@@ -34,13 +34,15 @@ function MeetingSection() {
         <span className='header-text'>Meetings</span> <br />
         <span className='meeting-text'>
           Weekly Meetings on Tuesdays <br />
-          Big Time Brewery @5 <br />
-          Quarterly tournaments @ somewhere
+          @ TBD <br />
+          Quarterly tournaments @ TBD
         </span>
       </div>
       <div className='media'>
         <img src={dice} className='img' alt='Dice'></img>
-        <button className='btn'>Join our Discord!</button>
+        <a href="https://discord.gg/eJKYyyKFCY" target="_blank">
+          <button className='btn'>Join our Discord!</button>
+        </a>
       </div>
     </div>
   );

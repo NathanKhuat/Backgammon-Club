@@ -1,17 +1,49 @@
-.wrapper {
+.footer-wrapper {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding: 20px;
 }
 
 .title {
     font-family: 'Inria Serif', serif;
-    font-size: 40px;
-    font-weight: 700;
+    font-style: normal;
+    font-weight: 550;
 }
 
 .copyright {
-    font-family: 'Lato';
-    font-size: 20px;
-    font-weight: 700;
+    font-family: 'Inria Serif', serif;
+    font-style: normal;
+    font-weight: 550;
+}
+
+/* screen size adjustments */
+@media screen and (max-width: 768px) {
+    .footer-wrapper {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 950px) {
+    .footer-wrapper {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 951px) and (max-width: 1200px) {
+    .footer-wrapper {
+        font-size: 21px;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1500px) {
+    .footer-wrapper {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1501px) {
+    .footer-wrapper {
+        font-size: 32px;
+    }
 }

@@ -340,7 +340,7 @@
 
 @media screen and (min-width: 1501px) and (max-width: 1800px) {
     .welcome-wrapper {
-        margin-bottom: 380px;
+        margin-bottom: 360px;
     }
     .welcome-text {
         font-size: 64px;
@@ -355,7 +355,7 @@
     }
     .about-message {
         font-size: 32px;
-        right: 14%;
+        right: 12%;
     }
 }
 
