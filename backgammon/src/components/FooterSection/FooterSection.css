@@ -18,7 +18,13 @@
 }
 
 /* screen size adjustments */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
+    .footer-wrapper {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 481px)  and (max-width: 768px) {
     .footer-wrapper {
         font-size: 12px;
     }

@@ -101,7 +101,33 @@
 }
 
 /* screen size adjustments */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
+    .winner-wrapper {
+        margin-bottom: 60px;
+    }
+    .winner-box {
+        width: 980px;
+        height: 400px;
+    }
+    .winner-text-wrapper {
+        left: 5%;
+        top: 7%;
+    }
+    .community-message {
+        left: 5%;
+        right: 10%;
+        top: 20%;
+        font-size: 12px;
+    }
+    .winners-text1, .winners-text2 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 481px)  and (max-width: 768px) {
+    .winner-wrapper {
+        margin-bottom: 200px;
+    }
     .winner-box {
         width: 980px;
         height: 630px;
@@ -122,6 +148,9 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 950px) {
+    .winner-wrapper {
+        margin-bottom: 200px;
+    }
     .winner-box {
         width: 1100px;
         height: 700px;
@@ -142,6 +171,9 @@
 }
 
 @media screen and (min-width: 951px) and (max-width: 1200px) { /*switch align starting here*/
+    .winner-wrapper {
+        margin-bottom: 200px;
+    }
     .winner-box {
         width: 1580px;
         height: 800px;
@@ -162,6 +194,9 @@
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1500px) {
+    .winner-wrapper {
+        margin-bottom: 200px;
+    }
     .winner-box {
         width: 1580px;
         height: 800px;
@@ -183,6 +218,9 @@
 }
 
 @media screen and (min-width: 1501px) {
+    .winner-wrapper {
+        margin-bottom: 200px;
+    }
     .winner-box {
         width: 1580px;
         height: 1020px;

@@ -39,7 +39,6 @@
 .about1 {
     position: absolute;
     width: 97%;
-    height: calc(100% * 0.7); 
     max-width: 97%;
     opacity: 0.6;
     background: #C49F74;
@@ -85,7 +84,6 @@
 .about-bar {
     position: absolute;
     width: 1px;
-    height: 11vw; /*maybe change this to px*/
     background: #000;
     top: 112%;
     left: 20%;
@@ -254,7 +252,34 @@
 }
 
 /* screen size adjustments */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
+    .welcome-wrapper {
+        margin-bottom: 110px;
+    }
+    .welcome-text {
+        font-size: 18px;
+    }
+    .statement-text {
+        font-size: 0px;
+        right: 40%;
+        top: 82%;
+    }
+    .about-text {
+        font-size: 8px;
+    }
+    .about-message {
+        font-size: 12px;
+        right: 6%;
+    }
+    .about1 {
+        height: 100%; 
+    }
+    .about-bar {
+        height: 24vw;
+    }
+}
+
+@media screen and (min-width: 481px)  and (max-width: 768px) {
     .welcome-wrapper {
         margin-bottom: 140px;
     }
@@ -272,6 +297,12 @@
     .about-message {
         font-size: 14px;
         right: 6%;
+    }
+    .about1 {
+        height: calc(100% * 0.7); 
+    }
+    .about-bar {
+        height: 11vw;
     }
 }
 
@@ -294,6 +325,12 @@
         font-size: 18px;
         right: 7%;
     }
+    .about1 {
+        height: calc(100% * 0.7); 
+    }
+    .about-bar {
+        height: 11vw;
+    }
 }
 
 @media screen and (min-width: 951px) and (max-width: 1200px) {
@@ -314,6 +351,12 @@
     .about-message {
         font-size: 22px;
         right: 8%;
+    }
+    .about1 {
+        height: calc(100% * 0.7); 
+    }
+    .about-bar {
+        height: 11vw;
     }
 }
 
@@ -336,6 +379,12 @@
         font-size: 24px;
         right: 10%;
     }
+    .about1 {
+        height: calc(100% * 0.7); 
+    }
+    .about-bar {
+        height: 11vw;
+    }
 }
 
 @media screen and (min-width: 1501px) and (max-width: 1800px) {
@@ -357,6 +406,12 @@
         font-size: 32px;
         right: 12%;
     }
+    .about1 {
+        height: calc(100% * 0.7); 
+    }
+    .about-bar {
+        height: 11vw;
+    }
 }
 
 @media screen and (min-width: 1801px) {
@@ -377,5 +432,11 @@
     .about-message {
         font-size: 32px;
         right: 14%;
+    }
+    .about1 {
+        height: calc(100% * 0.7); 
+    }
+    .about-bar {
+        height: 11vw;
     }
 }

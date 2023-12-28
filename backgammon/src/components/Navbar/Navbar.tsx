@@ -1,7 +1,7 @@
 import './Navbar.css';
 import { Link } from 'react-scroll';
 
-function Navbar() { /* buttons arent changing size */
+function Navbar() {
   return (
     <div className='nav-wrapper'>
       <span className='title-text trigger1 animate fadeUp'>UW Backgammon</span>

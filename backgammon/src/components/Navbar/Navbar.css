@@ -2,14 +2,13 @@
     width: 100%;
     padding: 20px;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 
 .title-text {
     font-family: 'Inria Serif', serif;
     font-style: normal;
     font-weight: 550;
+    line-height: 1;
 }
 
 .nav-options {
@@ -89,7 +88,25 @@
 }
 
 /* screen size adjustments */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
+    .title-text {
+        position: absolute;
+        font-size: 18px;
+        left: 5%;
+    }
+    .nav-wrapper {
+        height: 55px;
+    }
+    .nav-options {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 481px)  and (max-width: 768px) {
+    .nav-wrapper {
+        justify-content: space-around;
+        align-items: center;
+    }    
     .title-text {
         font-size: 24px;
     }
@@ -102,6 +119,10 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 950px) {
+    .nav-wrapper {
+        justify-content: space-around;
+        align-items: center;
+    }    
     .title-text {
         font-size: 24px;
     }
@@ -114,6 +135,10 @@
 }
 
 @media screen and (min-width: 951px) and (max-width: 1200px) {
+    .nav-wrapper {
+        justify-content: space-around;
+        align-items: center;
+    }    
     .title-text {
         font-size: 29px;
     }
@@ -126,6 +151,10 @@
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1500px) {
+    .nav-wrapper {
+        justify-content: space-around;
+        align-items: center;
+    }    
     .title-text {
         font-size: 34px;
     }
@@ -138,6 +167,10 @@
 }
 
 @media screen and (min-width: 1501px) {
+    .nav-wrapper {
+        justify-content: space-around;
+        align-items: center;
+    }    
     .title-text {
         font-size: 40px;
     }

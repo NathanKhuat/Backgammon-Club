@@ -76,7 +76,28 @@
 }
 
 /* screen size adjustments */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
+    .wrapper {
+        margin-bottom: 0px;
+    }
+    .header-text {
+        font-size: 16px;
+        margin-bottom: 2px;
+    }
+    .meeting-text {
+        font-size: 12px;
+    }
+    .img {
+        height: 70px;
+        margin-bottom: 10px;
+    }
+    .btn , .btn:hover {
+        width: 90px;
+        font-size: 8px;
+    }
+}
+
+@media screen and (min-width: 481px)  and (max-width: 768px) {
     .wrapper {
         margin-bottom: 12px;
     }
