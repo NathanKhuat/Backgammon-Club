@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import './WinnerSection.css';
 import playing from "./playing.png"
+import playing2 from "./playing2.png"
 
 function WinnerSection() {
   const sectionRef = useRef<HTMLDivElement | null>(null);
@@ -49,14 +50,14 @@ function WinnerSection() {
           <ol className="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            {/* <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> */}
           </ol>
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img className="d-block w-100" src={playing} alt="First slide"/>
             </div>
             <div className="carousel-item">
-              <img className="d-block w-100" src={playing} alt="Second slide"/>
+              <img className="d-block w-100" src={playing2} alt="Second slide"/>
             </div>
           </div>
           <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
