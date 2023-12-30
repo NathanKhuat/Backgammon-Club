@@ -117,7 +117,7 @@
         left: 5%;
         right: 10%;
         top: 20%;
-        font-size: 12px;
+        font-size: 8px;
     }
     .winners-text1, .winners-text2 {
         font-size: 24px;
@@ -140,7 +140,7 @@
         left: 5%;
         right: 10%;
         top: 16%;
-        font-size: 12px;
+        font-size: 10px;
     }
     .winners-text1, .winners-text2 {
         font-size: 24px;
@@ -163,7 +163,7 @@
         left: 5%;
         right: 10%;
         top: 16%;
-        font-size: 14px;
+        font-size: 12px;
     }
     .winners-text1, .winners-text2 {
         font-size: 28px;
@@ -186,7 +186,7 @@
         left: 5%;
         right: 10%;
         top: 18%;
-        font-size: 18px;
+        font-size: 14px;
     }
     .winners-text1, .winners-text2 {
         font-size: 40px;
@@ -207,10 +207,10 @@
         right: 50%;
     }
     .community-message {
-        top: 11%;
+        top: 13%;
         left: 50%;
-        right: 8%;
-        font-size: 20px;
+        right: 10%;
+        font-size: 18px;
     }
     .winners-text1, .winners-text2 {
         font-size: 48px;
@@ -231,10 +231,10 @@
         right: 50%;
     }
     .community-message {
-        top: 11%;
+        top: 13%;
         left: 50%;
-        right: 8%;
-        font-size: 24px;
+        right: 10%;
+        font-size: 20px;
     }
     .winners-text1, .winners-text2 {
         font-size: 64px;

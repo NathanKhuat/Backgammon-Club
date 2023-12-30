@@ -20,36 +20,36 @@
 /* screen size adjustments */
 @media screen and (max-width: 480px) {
     .footer-wrapper {
-        font-size: 12px;
+        font-size: 8px;
     }
 }
 
 @media screen and (min-width: 481px)  and (max-width: 768px) {
     .footer-wrapper {
-        font-size: 12px;
+        font-size: 10px;
     }
 }
 
 @media screen and (min-width: 769px) and (max-width: 950px) {
     .footer-wrapper {
-        font-size: 16px;
+        font-size: 12px;
     }
 }
 
 @media screen and (min-width: 951px) and (max-width: 1200px) {
     .footer-wrapper {
-        font-size: 21px;
+        font-size: 14px;
     }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1500px) {
     .footer-wrapper {
-        font-size: 24px;
+        font-size: 18px;
     }
 }
 
 @media screen and (min-width: 1501px) {
     .footer-wrapper {
-        font-size: 32px;
+        font-size: 20px;
     }
 }
