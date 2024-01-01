@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.4db93bd5.css",
-    "main.js": "/static/js/main.b1b5b4a5.js",
-    "static/js/787.90fb5f15.chunk.js": "/static/js/787.90fb5f15.chunk.js",
-    "static/media/board2.png": "/static/media/board2.a2f77591c95fe715fc00.png",
-    "static/media/playing2.png": "/static/media/playing2.276e6de89300deeaa737.png",
-    "static/media/dice.png": "/static/media/dice.eeabbe9ad737f587d484.png",
-    "index.html": "/index.html",
-    "main.4db93bd5.css.map": "/static/css/main.4db93bd5.css.map",
-    "main.b1b5b4a5.js.map": "/static/js/main.b1b5b4a5.js.map",
-    "787.90fb5f15.chunk.js.map": "/static/js/787.90fb5f15.chunk.js.map"
+    "main.css": "/Backgammon-Club/static/css/main.4db93bd5.css",
+    "main.js": "/Backgammon-Club/static/js/main.ee6054b5.js",
+    "static/js/787.90fb5f15.chunk.js": "/Backgammon-Club/static/js/787.90fb5f15.chunk.js",
+    "static/media/board2.png": "/Backgammon-Club/static/media/board2.a2f77591c95fe715fc00.png",
+    "static/media/playing2.png": "/Backgammon-Club/static/media/playing2.276e6de89300deeaa737.png",
+    "static/media/dice.png": "/Backgammon-Club/static/media/dice.eeabbe9ad737f587d484.png",
+    "index.html": "/Backgammon-Club/index.html",
+    "main.4db93bd5.css.map": "/Backgammon-Club/static/css/main.4db93bd5.css.map",
+    "main.ee6054b5.js.map": "/Backgammon-Club/static/js/main.ee6054b5.js.map",
+    "787.90fb5f15.chunk.js.map": "/Backgammon-Club/static/js/787.90fb5f15.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4db93bd5.css",
-    "static/js/main.b1b5b4a5.js"
+    "static/js/main.ee6054b5.js"
   ]
 }
