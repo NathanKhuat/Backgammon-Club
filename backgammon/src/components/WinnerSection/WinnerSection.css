@@ -24,11 +24,6 @@
         flex-direction: column;
         align-items: flex-start;
     }
-
-    .winner-text-wrapper {
-        flex-direction: row !important;
-        gap: 8px;
-    }
 }
 
 .winner-box {
@@ -66,7 +61,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    min-width: 410px;
+    min-width: 550px;
 }
 
 .carousel-inner {
@@ -138,6 +133,12 @@
     .winners-text1, .winners-text2 {
         font-size: 24px;
     }
+
+    .winner-text-wrapper {
+        min-width: auto;
+        flex-direction: column;
+    }
+
 }
 
 @media screen and (min-width: 481px)  and (max-width: 768px) {
@@ -151,6 +152,11 @@
     
     .community-message {
         font-size: 10px;
+    }
+
+    .winner-text-wrapper {
+        flex-direction: row;
+        gap: 8px;
     }
 
     .winners-text1, .winners-text2 {
@@ -173,6 +179,12 @@
         top: 16%;
         font-size: 12px;
     }
+
+    .winner-text-wrapper {
+        flex-direction: row;
+        gap: 8px;
+    }
+
     .winners-text1, .winners-text2 {
         font-size: 28px;
     }
@@ -189,6 +201,11 @@
     
     .community-message {
         font-size: 14px;
+    }
+
+    .winner-text-wrapper {
+        flex-direction: row;
+        gap: 8px;
     }
 
     .winners-text1, .winners-text2 {
