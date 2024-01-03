@@ -13,9 +13,22 @@
 .top-wrapper {
     display: flex;
     height: 100%;
-    flex-direction: column;
     padding: 28px 68px;
-    gap: 8px;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .top-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .winner-text-wrapper {
+        flex-direction: row !important;
+        gap: 8px;
+    }
 }
 
 .winner-box {
@@ -30,27 +43,31 @@
 
 .community-message {
     color: #FFF;
-    font-style: normal;
     font-family: 'Lato', sans-serif;
     font-weight: 50px;
     line-height: 1.5;
     text-align: left;
 }
 
-.winners-text1 {
+.winners-text1, .winners-text2 {
     color: #DCDCDC;
     font-family: 'Inria Serif', serif;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
+}
+
+.winners-text1 {
+    color: #DCDCDC;
 }
 
 .winners-text2 {
     color: #282828;
-    font-family: 'Inria Serif', serif;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+}
+
+.winner-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 410px;
 }
 
 .carousel-inner {
@@ -114,16 +131,11 @@
         width: 980px;
         height: 400px;
     }
-    .winner-text-wrapper {
-        left: 5%;
-        top: 7%;
-    }
+  
     .community-message {
-        left: 5%;
-        right: 10%;
-        top: 20%;
         font-size: 8px;
     }
+
     .winners-text1, .winners-text2 {
         font-size: 24px;
     }
@@ -137,16 +149,11 @@
         width: 980px;
         height: 630px;
     }
-    .winner-text-wrapper {
-        left: 5%;
-        top: 7%;
-    }
+    
     .community-message {
-        left: 5%;
-        right: 10%;
-        top: 16%;
         font-size: 10px;
     }
+
     .winners-text1, .winners-text2 {
         font-size: 24px;
     }
@@ -160,10 +167,7 @@
         width: 1100px;
         height: 700px;
     }
-    .winner-text-wrapper {
-        left: 5%;
-        top: 7%;
-    }
+    
     .community-message {
         left: 5%;
         right: 10%;
@@ -183,16 +187,11 @@
         width: 1580px;
         height: 800px;
     }
-    .winner-text-wrapper {
-        left: 5%;
-        top: 7%;
-    }
+    
     .community-message {
-        left: 5%;
-        right: 10%;
-        top: 18%;
         font-size: 14px;
     }
+
     .winners-text1, .winners-text2 {
         font-size: 40px;
     }
@@ -206,17 +205,11 @@
         width: 1580px;
         height: 800px;
     }
-    .winner-text-wrapper {
-        left: 7%;
-        top: 11%;
-        right: 50%;
-    }
+   
     .community-message {
-        top: 13%;
-        left: 50%;
-        right: 10%;
         font-size: 18px;
     }
+
     .winners-text1, .winners-text2 {
         font-size: 48px;
     }
@@ -230,17 +223,11 @@
         width: 1580px;
         height: 1020px;
     }
-    .winner-text-wrapper {
-        left: 7%;
-        top: 11%;
-        right: 50%;
-    }
+
     .community-message {
-        top: 13%;
-        left: 50%;
-        right: 10%;
         font-size: 20px;
     }
+
     .winners-text1, .winners-text2 {
         font-size: 64px;
         left: 10%;
