@@ -24,7 +24,7 @@
 }
 
 
-.btn , .btn:hover {
+.btn, .btn:hover{
     border-radius: 0;
     background: #583928;
     color: white;
@@ -196,7 +196,7 @@
         height: 190px;
         margin-bottom: 40px;
     }
-    .btn , .btn:hover {
+    .btn, .btn:hover {
         width: 180px;
         font-size: 20px;
     }
