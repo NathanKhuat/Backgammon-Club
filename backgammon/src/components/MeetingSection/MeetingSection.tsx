@@ -33,8 +33,8 @@ function MeetingSection() {
       <div className='text'>
         <span className='header-text'>Meetings</span> <br />
         <span className='meeting-text'>
-          Weekly Meetings on Tuesdays <br />
-          @ TBD <br />
+          Weekly Meetings on Thursdays <br />
+          Big Time Brewery @ 7pm <br />
           Quarterly tournaments @ TBD
         </span>
       </div>
